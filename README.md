@@ -93,8 +93,6 @@ The `Duel` class is the base class for all duels and provides the following meth
 ### Methods to Access Players
 
 - **`getPlayers()`**: Returns an array of all players in the duel.
-- **`getAlive()`**: Returns an array of players who are still alive.
-- **`getDead()`**: Returns an array of players who are dead.
 
 ## Contributing
 
