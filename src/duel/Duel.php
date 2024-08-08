@@ -39,9 +39,6 @@ class Duel{
 		/** @var Player[] */
 	protected array $players = [];
 
-			/** @var Player[] */
-	protected array $deadPlayers = [];
-
 		/** The mount of seconds before the duel begins. */
 	protected int $queueDuration = 20;
 
@@ -75,22 +72,5 @@ class Duel{
 		/** @var ?Player[] */
 	public function getPlayers() : array {
 		return $this->players;
-	}
-
-		/** @var ?Player[] */
-	public function getAlive() : array {
-		$alive = [];
-		foreach($this->players as $player) {
-			if(in_array($player, $this->deadPlayers)) continue;
-
-			$alive[] = $player;
-		}
-
-		return $alive;
-	 }
-
-		/** @var ?Player[] */
-	public function getDead() : array {
-		return $this->deadPlayers;
 	}
 }
