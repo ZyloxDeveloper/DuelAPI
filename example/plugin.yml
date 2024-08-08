@@ -1,0 +1,7 @@
+---
+name: DuelAPITestPlugin
+version: 0.0.1
+main: ZyloxDeveloper\DuelAPITestPlugin\Loader
+api: 5.17.0
+src-namespace-prefix: ZyloxDeveloper\DuelAPITestPlugin
+...

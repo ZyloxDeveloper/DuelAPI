@@ -1,0 +1,7 @@
+---
+name: DuelAPI
+version: 1.0.1
+main: ZyloxDeveloper\DuelAPI\DuelAPI
+api: 5.17.0
+src-namespace-prefix: ZyloxDeveloper\DuelAPI
+...
