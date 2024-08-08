@@ -100,7 +100,7 @@ If you would like to contribute to DuelAPI, feel free to submit issues, suggest 
 
 ## License
 
-DuelAPI is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+DuelAPI is licensed under the MIT License. See the [LICENSE](https://github.com/ZyloxDeveloper/DuelAPI/blob/main/LICENCE) file for more information.
 
 ## Support
 
